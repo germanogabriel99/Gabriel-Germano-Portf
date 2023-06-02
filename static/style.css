@@ -135,6 +135,19 @@ i.menu-mobile{
 .menu-nav-active #header{
     left: 0;
 }
+#sobre-h{
+    padding: 0px 0px 0px 50px;
+}
+#fotoperfil{
+    padding: 0px 0px 0px 40px;
+}
+
+
+
+
+
+
+
 
 @media (max-width:1024px){
     #header{
