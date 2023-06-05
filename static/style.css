@@ -65,7 +65,7 @@ html, body{
 }
 .nav-menu a i,
 .nav-menu a:focus i {
-    font-size: 24px;
+    font-size: 18px;
     padding: 0.4rem;
     color: #6f7180;
 }
@@ -131,17 +131,20 @@ i.menu-mobile{
 }
 .menu-nav-active{
     overflow: hidden;
+    
 }
 .menu-nav-active #header{
     left: 0;
 }
-#sobre-h{
-    padding: 0px 0px 0px 50px;
-}
-#fotoperfil{
-    padding: 0px 0px 0px 40px;
+
+
+.section-bg{
+    background-color: #eff5ff;
 }
 
+#hab h2,p{
+    margin-left: 20px;
+}
 
 
 
