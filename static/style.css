@@ -97,6 +97,7 @@ section#inicio{
 }
 section#inicio h2{
     font-size: 4rem;
+    margin-left: 1rem;
     
 }
 section#inicio span#subtitle{
@@ -142,9 +143,7 @@ i.menu-mobile{
     background-color: #eff5ff;
 }
 
-#hab h2,p{
-    margin-left: 20px;
-}
+
 .cv .cv-title{
     font-weight: 700;
     margin-top: 20px;
@@ -153,7 +152,7 @@ i.menu-mobile{
 
 }
 .cv .cv-item{
-    padding: 0 0 20px 20px;
+    padding: 0 0 15px 15px;
     margin-top: -2px;
     border-left: 2px solid #1f5297;
     position: relative;
@@ -188,9 +187,65 @@ i.menu-mobile{
 
 
 
+.carousel-control-prev{
+    margin-left: 2rem;
+}
+.carousel-control-next{
+    margin-right: -7rem;
+}
+.carousel-indicators{
+    margin-bottom: -35px;
+}
+#carouselProjetos{
+    width: 85%;
+    text-align: center;
+    padding: 0 0 0 120px;
+}
+ #cont-projetos{
+    margin-left: 2rem;
+ }
+ #conta{
+    padding-left: 25px;
+ }
 
+ [data-anime]{
+    opacity: 0;
+    transition: 1s;
+ }
+ [data-anime="down"]{
+    transform: translate3d(0,-100%,0);
 
+ }
+ [data-anime="up"]{
+    transform: translate3d(0,100%,0);
 
+ }
+ [data-anime="left"]{
+    transform: translate3d(-100%,0,0);
+
+ }
+ [data-anime="right"]{
+    transform: translate3d(0,0,0);
+
+ }
+ [data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+ }
+
+ @media (max-width: 1000px){
+    .carousel-control-prev{
+        margin-left: 0;
+    }
+    .carousel-control-next{
+        margin-right: 0;
+    }
+    #carouselProjetos{
+        width: 100%;
+        text-align: center;
+        padding: 0 0 0 5px;
+    }
+}
 
 @media (max-width:1024px){
     #header{
@@ -213,3 +268,4 @@ i.menu-mobile{
 
 
 }
+
